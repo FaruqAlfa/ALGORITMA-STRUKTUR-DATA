@@ -39,7 +39,7 @@ if (n % 2 == 1)//bilangan ganjil
   **-	Maksud dari potongan tersebut yakni apabila terdapat suatu bilangan ganjil maka program akan melakukan pembagian terhadap variuable n, yakni di bagi 2 kemudian dikalikan dengan method itu sendiri dan kemudian di kalikan lagi dengan variable a. namun apabila terdapat suatu bilangan genap maka program akan melakukan return/nilai balik dan di dalam return tersebut dilakukan pembagian terhadap variable n, yang mana variable n di bagi 2 dan kemudian di kalikan dengan method itu sendiri namun tidak dikalikan dengan nilai daripada variable a.**
   
 3.	Apakah tahap combine sudah termasuk dalam kode tersebut?Tunjukkan! 
-**-	Tahap combine sudah terjadi pada kode tersebut, dan lebih tepatnya tahapan tersebut di lakukan pada class Pangkat yang mana lebih tepatnya terletak pada method pangkatDC dan berada di baris kode ke 46, seperti pada gambar di bawah ini :**
+**-	Tahap combine sudah terjadi pada kode tersebut, dan lebih tepatnya tahapan tersebut di lakukan pada class Pangkat yang mana lebih tepatnya terletak pada method pangkatDC dan berada di baris kode ke 28, seperti pada gambar di bawah ini :**
 <img src="https://github.com/FaruqAlfa/ALGORITMA-STRUKTUR-DATA/blob/main/Jobsheet4/ScreenShootHasil/pangkatCombine.png">
 
 4. <img src="https://github.com/FaruqAlfa/ALGORITMA-STRUKTUR-DATA/blob/main/Jobsheet4/ScreenShootHasil/Pangkat1.png">
