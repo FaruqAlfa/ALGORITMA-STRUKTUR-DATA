@@ -6,7 +6,7 @@
 
 ## **SubBab 8.2.2**  
 
-<img src=>  
+<img src= https://github.com/FaruqAlfa/ALGORITMA-STRUKTUR-DATA/blob/main/JobSheet8/ScreenShoot/verifikasi%208.2.2.png>  
 
 ## **8.2.3 Pertanyaan**  
 
@@ -16,10 +16,17 @@ bernilai 0?
 **Karena jika front dan rearnya bernilai 0 maka tidak akan ada ruang untuk atribut size nya .**
 
 2.  Pada method Enqueue, jelaskan maksud dan kegunaan dari potongan kode berikut!  
-
+```java
+if(rear == max -1){
+rear = 0;
+```
 **Jika rear ada di index terakhir dari array maka rear nya akan di set ke 0, maka rear tidak akan melewati batas maksimal indeks array**
 
 3. Pada method Dequeue, jelaskan maksud dan kegunaan dari potongan kode berikut! 
+```java
+if(front == max -1){
+front = 0;
+```
 **Apabila front berada pada indeks paling belakang maka front akan dipindahkan ke indeks paling depan**
 
 4. Pada method print, mengapa pada proses perulangan variabel i tidak dimulai dari 0 (int i=0), 
@@ -53,7 +60,7 @@ queue overflow dan queue underflow, program dihentikan!
 
 **Method Dequeue tidak perlu modifikasi sedangkan method Enqueue menjadi :**  
 
-<img src= >  
+<img src= https://github.com/FaruqAlfa/ALGORITMA-STRUKTUR-DATA/blob/main/JobSheet8/ScreenShoot/P%208.2.3%20no%207.png >  
 
 
 
@@ -77,7 +84,9 @@ daftar menu 5. Cek Antrian paling belakang pada class QueueMain sehingga method 
 dapat dipanggil!
 
 
-<img src= >  
+<img src= https://github.com/FaruqAlfa/ALGORITMA-STRUKTUR-DATA/blob/main/JobSheet8/ScreenShoot/P%208.3.3%20no%202.png> 
+
+<img src= https://github.com/FaruqAlfa/ALGORITMA-STRUKTUR-DATA/blob/main/JobSheet8/ScreenShoot/P%208.3.3%20no%202%20-%201.png>
 
 ## **SubBab 8.4**  
 
@@ -92,9 +101,9 @@ Untuk menampilkan data yang berada pada posisi (indeks) tertentu
 Sesuaikan daftar menu yang terdapat pada class QueueMain sehingga kedua method tersebut 
 dapat dipanggil!
 
-<img src= >  
-**Hasil Run**
-<img src= >
+<img src= https://github.com/FaruqAlfa/ALGORITMA-STRUKTUR-DATA/blob/main/JobSheet8/ScreenShoot/Tugas%208.4%20no%201.png>  
+
+<img src= https://github.com/FaruqAlfa/ALGORITMA-STRUKTUR-DATA/blob/main/JobSheet8/ScreenShoot/Tugas%208.4%20no%201-2.png>
 
 2. Buatlah program antrian untuk mengilustasikan mahasiswa yang sedang meminta tanda tangan 
 KRS pada dosen DPA di kampus. Ketika seorang mahasiswa akan mengantri, maka dia harus 
@@ -102,8 +111,7 @@ menuliskan terlebih dulu NIM, nama, absen, dan IPK seperti yang digambarkan pada
 diagram
 
 
-<img src= >  
-<img src= >  
-<img src= >  
-<img src= >  
-<img src= >  
+<img src= https://github.com/FaruqAlfa/ALGORITMA-STRUKTUR-DATA/blob/main/JobSheet8/ScreenShoot/mahasiswa%201.png>  
+<img src= https://github.com/FaruqAlfa/ALGORITMA-STRUKTUR-DATA/blob/main/JobSheet8/ScreenShoot/mahasiswa%202.png>  
+<img src= https://github.com/FaruqAlfa/ALGORITMA-STRUKTUR-DATA/blob/main/JobSheet8/ScreenShoot/mahasiswa%203.png>  
+<img src= https://github.com/FaruqAlfa/ALGORITMA-STRUKTUR-DATA/blob/main/JobSheet8/ScreenShoot/mahasiswa%204.png>  
